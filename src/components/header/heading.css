@@ -1,0 +1,26 @@
+.heading-form{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+}
+
+.heading-form h1{
+          font-weight: 700;
+          font-family: 'Ubuntu', sans-serif;
+          color: #484F50;
+}
+
+.heading-form span {
+          width: 600px;
+          font-weight: 900;
+          font-family: 'Ubuntu', sans-serif;;
+          color: #707272;
+}
+
+
+@media screen and (max-width:640px){
+          .heading-form span{
+                    width: 380px;
+          }
+}

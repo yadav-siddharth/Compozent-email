@@ -1,0 +1,94 @@
+body{
+          background-color: #EAF7F7;
+
+}
+
+.hero{
+          background-color: #ffff;
+          width: 900px;
+          height: 550px;
+          margin: auto;
+          margin-top: 75px;
+          border-radius: 12px;
+          padding: 0.5rem;
+          display: flex;
+
+}
+
+.hero-left{
+          background-color: #2ea397;
+          width: 40%;
+          height: 100%;
+          border-radius: 12px;
+}
+
+.left-section{
+        padding-top: 70px;
+}
+
+
+.company-info{
+          margin: 2rem;
+          margin-top: 60px;
+}
+
+.contact{
+          margin-left: 2rem;
+         
+}
+
+.contact h2{
+          color: #ffff;
+          font-family: 'Ubuntu', sans-serif;
+}
+
+.contact p{
+          width: 300px;
+          color: #ffff;
+          font-family: 'Ubuntu', sans-serif;
+          font-size: 0.5;
+}
+
+.location p ,.phone p ,.email p{
+          color: #ffff;
+          font-weight: 700;
+          font-family:'Ubuntu', sans-serif;
+         
+}
+
+.hero-right{
+          width: 60%;
+}
+
+.ball{
+          background-image: linear-gradient(to right top, #2ea397, #57b3aa, #79c3bd, #99d4d0, #b8e4e2);
+          width: 150px;
+          height: 140px;
+          border-radius: 75px 0  0 75px ;
+          display: flex;
+          margin-left: 210px;
+          z-index: -1;
+}
+
+@media screen and (max-width:640px){
+        .hero{
+                display: flex;
+                flex-direction: column;
+                width:350px;
+                height: 1100px;
+        }
+        .hero-left{
+                width: 100%;
+                height: 45%;
+        }
+
+        .hero-right{
+                margin-left: 0;
+        }
+
+        .ball{
+                display: none;
+        }
+
+
+}

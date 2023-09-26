@@ -1,0 +1,56 @@
+.form{
+          margin-left: 2rem;
+}
+
+
+.input-name,.input-subject,.input-email,.input-message{
+          width: 300px;
+          height: 35px;
+          border: none;
+          border-bottom:  1px solid #151550;
+}
+
+
+.input-group{
+          padding: 1rem;
+          margin: 1rem;
+}
+
+.input-group label{
+          font-weight: 700;
+          color: #484F50;;
+}
+
+.input-name::placeholder,.input-email::placeholder,.input-message::placeholder,.input-subject::placeholder{
+          font-family:"Euclid Circular A", "Poppins" ;
+}
+
+.input-name:focus,.input-email:focus,.input-message:focus,.input-subject:focus{
+          outline: none;
+          
+}
+
+.input-name:focus::placeholder,.input-email:focus::placeholder,.input-message:focus::placeholder,.input-subject:focus::placeholder{
+          color: transparent;
+}
+
+
+.submit-button{
+          padding: 1rem;
+          margin: 2rem;
+          background-color: #007A6E;
+          border: none;
+          color: #fff;
+          font-family: 'Ubuntu', sans-serif;
+          border-radius: 5px;
+}
+
+.submit-button:hover{
+          background-color: #84dfd6;
+}
+
+@media screen and (max-width:640px){
+          .form{
+                    margin: 0;
+          }
+}
